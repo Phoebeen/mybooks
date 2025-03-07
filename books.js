@@ -3,47 +3,137 @@ const books = [
     {
         id: 1,
         name: {
-            original: "Le Petit Prince",
-            chinese: "小王子",
-            japanese: "星の王子さま",
-            english: "The Little Prince"
+            original: "קיצור תולדות האנושות",
+            chinese: "人类简史",
+            japanese: "サピエンス全史",
+            english: "Sapiens: A Brief History of Humankind"
         },
-        country: "法国",
-        language: "法语",
-        author: "安托万·德·圣-埃克苏佩里",
-        description: "讲述了小王子从自己星球出发前往地球的过程中，所经历的各种冒险和感悟。",
-        period: "2023-09-01 至 2023-09-10",
-        link: "https://example.com/le-petit-prince"
+        country: "以色列",
+        language: "中文",
+        author: "尤瓦尔·赫拉利",
+        description: "《人类简史：从动物到上帝》由以色列历史学家尤瓦尔·赫拉利所著，于2011年出版。作者讲述了人类从石器时代至21世纪的演化与发展史，并将人类历史分为四个阶段：认知革命、农业革命、人类的融合统一与科学革命。该书深受贾德·戴蒙的《枪炮、病菌与钢铁》影响。自2011年希伯来文版出版以来，该书已被翻译为45种语言（2017年6月）。2014年，其中文版出版。2015年，该书获中国国家图书馆文津图书奖。2016年，获吴大猷科学普及著作奖翻译类金签奖。该书出版后获得的评价好坏参半。部分人类学家对该书的许多观点抱有怀疑和否定的态度，而公众对本书的评价基本上是正面的。",
+        period: "-",
+        link: "-"
     },
     {
         id: 2,
         name: {
-            original: "ノルウェイの森",
-            chinese: "挪威的森林",
-            japanese: "ノルウェイの森",
-            english: "Norwegian Wood"
+            original: "中國，是地下這幫鼠族撐起來的(2018)",
+            chinese: "中国，是地下这帮鼠族撑起来的",
+            japanese: "-",
+            english: "-"
         },
-        country: "日本",
-        language: "日语",
-        author: "村上春树",
-        description: "讲述了大学生渡边彻在东京的生活，以及他与两位女性之间的感情纠葛。",
-        period: "2023-08-15 至 2023-08-25",
-        link: "https://example.com/norwegian-wood"
+        country: "-",
+        language: "中文",
+        author: "Saint-paul, Patric(著),陳, 文瑶(译)",
+        description: "-",
+        period: "-",
+        link: "-"
     },
     {
         id: 3,
         name: {
-            original: "To Kill a Mockingbird",
-            chinese: "杀死一只知更鸟",
-            japanese: "アラバマ物語",
-            english: "To Kill a Mockingbird"
+            original: "独生：中国最激进的社会工程实验(2016)",
+            chinese: "独生：中国最激进的社会工程实验",
+            japanese: "-",
+            english: "-"
         },
         country: "美国",
-        language: "英语",
-        author: "哈珀·李",
-        description: "通过一个小女孩的视角，揭示了美国南方的种族不平等和道德困境。",
-        period: "2023-07-01 至 2023-07-10",
-        link: "https://example.com/to-kill-a-mockingbird"
+        language: "中文",
+        author: "方凤美",
+        description: "普立兹新闻奖得主、国际特赦组织人权新闻奖得主。曾担任《华尔街日报》记者，著名报导包括9-11攻击事件后的纽约、二○○八年北京奥运前的中国转型过程，以及中国的农民工。被《外交政策》（Foreign Policy）杂志选为中美关系的五十名影响人物之一。离开记者岗位之后，曾任南加大传播学院讲师，现为新美国智库成员",
+        period: "-",
+        link: "-"
+    },
+    {
+        id: 4,
+        name: {
+            original: "女ぎらい:ニッポンのミソジニー",
+            chinese: "厌女",
+            japanese: "-",
+            english: "-"
+        },
+        country: "日本",
+        language: "日文",
+        author: "上野千鹤子",
+        description: "-",
+        period: "-",
+        link: "-"
+    },
+    {
+        id: 5,
+        name: {
+            original: "Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us About Who We Really Are(2018)",
+            chinese: "人人都在说谎-赤裸裸的数据真相",
+            japanese: "-",
+            english: "-"
+        },
+        country: "-",
+        language: "中文",
+        author: "赛思·斯蒂芬斯--达维多维茨",
+        description: "-",
+        period: "-",
+        link: "-"
+    },
+    {
+        id: 6,
+        name: {
+            original: "-(2022)",
+            chinese: "应得的权利：男性特权如何伤害女性",
+            japanese: "-",
+            english: "-"
+        },
+        country: "-",
+        language: "中文",
+        author: "凯特·曼恩",
+        description: "-",
+        period: "-",
+        link: "-"
+    },
+    {
+        id: 7,
+        name: {
+            original: "女人的胜利(1995)",
+            chinese: "女人的胜利",
+            japanese: "-",
+            english: "Victory"
+        },
+        country: "中国",
+        language: "中文",
+        author: "余华",
+        description: "-",
+        period: "-",
+        link: "-"
+    },
+    {
+        id: 8,
+        name: {
+            original: "L'Arminuta(2018)",
+            chinese: "被弃养的女孩",
+            japanese: "-",
+            english: "-"
+        },
+        country: "意大利",
+        language: "中文",
+        author: "[意]多娜泰拉·迪皮耶特兰托尼奥",
+        description: "继“那不勒斯四部曲”之后，意大利又一现象级高分之作。",
+        period: "2025/02/26",
+        link: "-"
+    },
+    {
+        id: 9,
+        name: {
+            original: "La Porte Étroite(1909)",
+            chinese: "窄门",
+            japanese: "狭き門",
+            english: "-"
+        },
+        country: "意大利",
+        language: "中文",
+        author: "安德烈·纪德",
+        description: "《窄门》是法国作家安德烈·纪德创作的中篇小说。小说描写主人公杰罗姆自小爱着表姐阿莉莎，阿莉莎虽然对杰罗姆也怀有同样的感情，但她恪守清教徒的自我约束，把感情深深埋在心底，最后积忧成疾，不幸身亡。在《窄门》中，纪德将爱情中的神秘主义体验推向极致，讲述了一段纯洁炙热、却又含着无边孤寂和无限辛酸滋味的爱情故事。",
+        period: "2025/02/26-",
+        link: "-"
     }
 ];
 
