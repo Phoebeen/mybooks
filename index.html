@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoebeen的书籍清单</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f9f4f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff6f61;
+            color: white;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #ff6f61;
+            color: white;
+            font-weight: bold;
+        }
+        tr:hover {
+            background-color: #fde2e2;
+        }
+        .description {
+            max-width: 300px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .description:hover {
+            white-space: normal;
+            overflow: visible;
+        }
+        a {
+            color: #ff6f61;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ff6f61;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Phoebeen的书籍清单 📚</h1>
+    <table id="book-table">
+        <thead>
+            <tr>
+                <th>序号</th>
+                <th>书名</th>
+                <th>所属国家</th>
+                <th>文本语言</th>
+                <th>作者</th>
+                <th>简介</th>
+                <th>阅读期间</th>
+                <th>资源链接</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- 书籍数据将在这里动态加载 -->
+        </tbody>
+    </table>
+
+    <footer>
+        <p>© 2025 Phoebeen的书籍清单. 🌸</p>
+    </footer>
+
+    <script src="books.js"></script>
+</body>
+</html>
