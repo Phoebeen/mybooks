@@ -63,7 +63,7 @@ const books = [
     {
         id: 5,
         name: {
-            original: "Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us About Who We Really Are(2018)",
+            original: "Everybody Lies",
             chinese: "人人都在说谎-赤裸裸的数据真相",
             japanese: "-",
             english: "-"
