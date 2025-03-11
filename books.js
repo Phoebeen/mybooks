@@ -117,7 +117,7 @@ const books = [
         language: "中文",
         author: "[意]多娜泰拉·迪皮耶特兰托尼奥",
         description: "继“那不勒斯四部曲”之后，意大利又一现象级高分之作。",
-        period: "2025/02/26",
+        period: "-2025/02/26",
         link: "-"
     },
     {
@@ -132,7 +132,22 @@ const books = [
         language: "中文",
         author: "安德烈·纪德",
         description: "《窄门》是法国作家安德烈·纪德创作的中篇小说。小说描写主人公杰罗姆自小爱着表姐阿莉莎，阿莉莎虽然对杰罗姆也怀有同样的感情，但她恪守清教徒的自我约束，把感情深深埋在心底，最后积忧成疾，不幸身亡。在《窄门》中，纪德将爱情中的神秘主义体验推向极致，讲述了一段纯洁炙热、却又含着无边孤寂和无限辛酸滋味的爱情故事。",
-        period: "2025/02/26-",
+        period: "2025/2/26-2025/3/10",
+        link: "-"
+    },
+    {
+        id: 10,
+        name: {
+            original: "沉默的大多数 (1996)",
+            chinese: "沉默的大多数(杂文)",
+            japanese: "-",
+            english: "-"
+        },
+        country: "中国",
+        language: "中文",
+        author: "王小波",
+        description: "《沉默的大多数》是中华人民共和国作家王小波最初发表于1996年第4期《东方》杂志上的杂文。该文于1997年由中国青年出版社出版发行。观点认为，作者在该作品中倾注了其对中国民众命运的关注，以反讽和幽默的手法直面生活，从一个轻松的角度来解构身边复杂的事态。",
+        period: "2025/3/10-",
         link: "-"
     }
 ];
@@ -179,7 +194,7 @@ books.forEach(book => {
     const linkCell = document.createElement("td");
     const link = document.createElement("a");
     link.href = book.link;
-    link.textContent = "阅读资源";
+    link.textContent = "暂无资源";
     link.target = "_blank";
     linkCell.appendChild(link);
     row.appendChild(linkCell);
